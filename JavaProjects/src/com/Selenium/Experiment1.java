@@ -14,10 +14,10 @@ public class Experiment1 {
 		WebDriver driver=new ChromeDriver();
 		
 		driver.get("https://www.redbus.in/");
-		/*WebElement value=driver.findElement(By.id("src"));
+		WebElement value=driver.findElement(By.id("src"));
 		value.sendKeys("kochi");
 		WebElement value2=driver.findElement(By.id("dest"));
-		value2.sendKeys("Bangalore");*/
+		value2.sendKeys("Bangalore");
 		driver.findElement(By.xpath("//label[@for='onward_cal']")).click();
 		
 		
